@@ -48,17 +48,17 @@ import {
   
           <Box p={6}>
             <Stack spacing={0} align={'center'} mb={5}>
-              <Heading fontSize={'2xl'} fontWeight={500} fontFamily={'body'}>
+              <Heading fontSize={'2xl'} fontWeight={500} fontFamily={'body'} color={"#FFFFFF"}>
                 Yogesh Patel
               </Heading>
               <Text color={'gray.500'}>Software Engineer</Text>
             </Stack>
   
             <Stack direction={'row'} justify={'center'} spacing={6}>
-                <a href='https://github.com/yogesh98'> <Icon  boxSize={8} as={BsGithub} /> </a>
-                <a href='https://www.linkedin.com/in/yogeshp98/'> <Icon  boxSize={8} as={BsLinkedin} /> </a>
-                <a href='callto:7322088416'> <Icon  boxSize={8} as={BsFillTelephoneFill} /> </a>
-                <a href='mailto:me@yogeshp.dev'> <Icon  boxSize={8} as={MdEmail} /> </a>
+                <a href='https://github.com/yogesh98'> <Icon color={"#FFFFFF"} boxSize={8} as={BsGithub} /> </a>
+                <a href='https://www.linkedin.com/in/yogeshp98/'> <Icon color={"#FFFFFF"} boxSize={8} as={BsLinkedin} /> </a>
+                <a href='callto:7322088416'> <Icon color={"#FFFFFF"} boxSize={8} as={BsFillTelephoneFill} /> </a>
+                <a href='mailto:me@yogeshp.dev'> <Icon color={"#FFFFFF"} boxSize={8} as={MdEmail} /> </a>
             </Stack>
             <Link 
                 href='mailto:me@yogeshp.dev'
