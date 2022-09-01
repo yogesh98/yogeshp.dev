@@ -57,7 +57,7 @@ import {
             <Stack direction={'row'} justify={'center'} spacing={6}>
                 <a href='https://github.com/yogesh98'> <Icon color={"#FFFFFF"} boxSize={8} as={BsGithub} /> </a>
                 <a href='https://www.linkedin.com/in/yogeshp98/'> <Icon color={"#FFFFFF"} boxSize={8} as={BsLinkedin} /> </a>
-                <a href='callto:7322088416'> <Icon color={"#FFFFFF"} boxSize={8} as={BsFillTelephoneFill} /> </a>
+                <a href='tel:7322088416'> <Icon color={"#FFFFFF"} boxSize={8} as={BsFillTelephoneFill} /> </a>
                 <a href='mailto:me@yogeshp.dev'> <Icon color={"#FFFFFF"} boxSize={8} as={MdEmail} /> </a>
             </Stack>
             <Link 
