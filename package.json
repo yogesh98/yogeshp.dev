@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "rm package-lock.json && rm -rf node_modules && npm install"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.2.9",
@@ -15,7 +16,10 @@
     "framer-motion": "^7.2.1",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-tsparticles": "^2.2.4",
+    "tsparticles": "^2.2.4"
   },
   "devDependencies": {
     "eslint": "8.22.0",
