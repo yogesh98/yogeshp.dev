@@ -17,9 +17,9 @@ import {
   
   export default function SocialCard() {
     return (
-      <Center w="100%" h="100%" py={6}>
+      <Center w="100%" h="100%" py={6} px={6}>
         <Box
-          maxW={'400px'}
+          maxW={'300px'}
           w={'full'}
           bg={'gray.800'}
           boxShadow={'2xl'}
